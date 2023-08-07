@@ -1,0 +1,11 @@
+www (world wide web)
+
+클라이언트, front-end  -> 서버, backend
+
+통신 (communication)
+
+요청할때 https://www.naver.com/ 주소 필요
+
+웹 프로그래밍 >>>>>>>> 모바일 프로그래밍
+e-commerce 전 세계 3번째로 큰 이커머스시장.
+

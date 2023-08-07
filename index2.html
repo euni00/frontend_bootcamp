@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 브라우저에서 읽는 기본 정보를 세팅해주는 영역 -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 브라우저 화면에서 그려지는 형태를 결정하는 영역, 반응형 웹 프로그래밍 -->
+    <title>YEEUNLEE</title>
+
+    <!-- 링크를 통해 css를 적용한다.-->
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <!-- css -->
+    <!-- Cascading Style Sheet -->
+    <!-- 2가지 방법 -->
+    <!-- 
+    1. 직접적으로 inline에 스타일을 적용 시키는 방법
+    2. head 혹은 외부 파일로부터 스타일을 불러와 적용 시키는 방법
+    -->
+    <script>
+      var num = 1;
+      var num2 = 2;
+      num + num2;
+    </script>
+    <!-- script 태그를 head에 사용하는 경우 =>
+         구글 애널리틱스를 사용할때 : 사용자들이 사이트에 와서 어떤 행동을 하는지 추적하는 프로그램 -->
+    <!-- element.style : 특정 한 줄만 색을 변경하고 싶을때 -->
+    <!-- 스타일 지정이 중복되었을 경우 아래 스타일을 우선 적용 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- div 태그 : control 할 수 있는 한 영역을 잡는 역할-->
+    <div>
+      <h1>Hello World</h1>
+      <h2>Hello World</h2>
+      <h3>Hello World</h3>
+    </div>
+
+    <div class="paragarphText"></div>
+
+    <div>
+      <!-- class를 부여하면 css를 각각 적용할 수 있습니다. -->
+      <p class="firstP" id="first">첫 프론트엔드 수업입니다.</p>
+      <p style="color: aquamarine">내용2<br />내용3</p>
+      <!-- css가 가장 우선적으로 적용 되는 것은 inline css 이다. -->
+
+      <!-- inline tag -->
+      <p class="secondP">
+        네이버로 연결하기 <a href="https://www.naver.com">네이버로 이동</a> !!!
+      </p>
+      <p class="thirdP">
+        네이버로 연결하기 (에러)
+        <a href="www.naver.com">네이버로 이동</a> !!!
+      </p>
+    </div>
+    <!-- 
+         http://192.168.219.100:5500/index.html
+
+         http://192.168.219.100:5500/www.naver.com
+    -->
+
+    <!-- 웹페이지에 이미지 넣기 -->
+    <!-- alt : 이미지에 대한 설명 -->
+    <div class="image-box">
+      <img src=" ./img/imageCon1.jpg" alt="" />
+      <img src=" ./img/imageCon2.jpg" alt="" />
+    </div>
+
+    <!-- ctrl + \ : page split -->
+    <!-- alt + shift : 여러줄 변경 -->
+    <!-- ol과 ul의 차이
+    ol : 순서가 있는 리스트
+    ul : 순서가 없는 리스트
+    -->
+    <ul>
+      <li>햄찌 바부</li>
+      <li>햄찌얏</li>
+      <li>햄토리</li>
+    </ul>
+
+    <ol>
+      <li>햄찌 바부</li>
+      <li>햄찌얏</li>
+      <li>햄토리</li>
+    </ol>
+  </body>
+</html>
+
+<!--
+  padding
+  margin
+  border
+-->

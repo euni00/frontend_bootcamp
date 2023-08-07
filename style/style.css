@@ -1,0 +1,28 @@
+p {
+  color: blue;
+}
+
+p {
+  color: brown;
+}
+
+.firstP {
+  color: blueviolet;
+}
+
+.secondP {
+  color: blue;
+}
+
+.thirdP {
+  color: aqua;
+}
+
+/* 암묵적으로 css를 적용할때 id를 쓰지 않고 class를 사용합니다.  id는 JavaScript를 적용할때 사용합니다.
+     동시에 적용했을 경우 id가 우선 적용됩니다.*/
+
+#first {
+  color: black;
+}
+
+/* React svelete */
