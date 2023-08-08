@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 단순히 디자인 뿐만 아니라 영역을 설정한다. */
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      .flex-item {
+        flex: 1;
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .flex-item2 {
+        flex: 3;
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- grid & flex -->
+
+    <div class="grid-container">
+      <div class="grid-item">영역1</div>
+      <div class="grid-item">영역2</div>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-item">영역1</div>
+      <div class="flex-item2">영역2</div>
+    </div>
+  </body>
+</html>

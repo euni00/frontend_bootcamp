@@ -9,3 +9,10 @@ www (world wide web)
 웹 프로그래밍 >>>>>>>> 모바일 프로그래밍
 e-commerce 전 세계 3번째로 큰 이커머스시장.
 
+web assembly 기술
+
+Figma
+
+Web game 엔지니어 사이드 
+
+생산형 AI => grid, flex

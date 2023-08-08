@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- form -->
+    <!-- 정보를 서버 컴퓨터쪽에 전달하기 위한 html의 형태! -->
+  </body>
+
+  <!-- REST API 통신 -->
+
+  <!-- <form action="http://server.com/" method="post" enctype="multipart/form-data"></form> -->
+  <form>
+    <label for="username">이름</label>
+    <input
+      type="text"
+      id="username"
+      name="username"
+      placeholder="이름을 입력해주세요"
+    />
+    <!-- 입력값을 집어 넣는 것 -->
+    <br /><br />
+    <label for="email">이메일</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="이메일을 입력해 주세요"
+    />
+    <label for="password">비밀번호</label>
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="비밀번호를 입력해 주세요"
+    />
+
+    <p>성별을 입력해 주세요.</p>
+
+    <input type="radio" name="gender" value="male" id="option-1" />
+    <label for="option-1">남자</label>
+    <input type="radio" name="gender" value="female" id="option-2" />
+    <label for="option-2">여자</label>
+
+    <div>
+      <label for="age">나이를 입력해 주세요</label>
+      <select name="age" id="age">
+        <option value="age1">18~29</option>
+        <option value="age1">30~50</option>
+        <option value="age1">51~70</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="introduce">자기소개해주세요</label>
+      <textarea name="introduce" id="introduce" cols="30" rows="10"></textarea>
+    </div>
+
+    <!-- <input type="file" /> -->
+  </form>
+</html>
+
+<!-- name -> body-parsing을 위해 존재한다 -->

@@ -1,0 +1,78 @@
+header {
+  background-color: #f63232;
+  text-align: center;
+  /* position: fixed; */
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+  border: 8px solid white;
+  border-radius: 36px;
+  padding: 18px 10px;
+  display: inline-block;
+}
+
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+}
+
+article h2 {
+  color: red;
+  font-size: 48px;
+}
+
+article p {
+  line-height: 2em;
+  color: #4b4b4b;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.welcome {
+  color: white;
+  position: absolute;
+  background: #feb614;
+  padding: 30px;
+  font-size: 21px;
+  top: 10%;
+}
+
+/* media query */
+@media screen and (max-width: 700px) {
+  .welcome {
+    position: relative;
+    font-size: 15px;
+  }
+
+  .welcome h2 {
+    color: black;
+  }
+
+  .welcome br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .welcome br {
+    display: none;
+  }
+
+  .welcome h2 {
+    color: aqua;
+  }
+}
+/* 
+반응형 웹사이트 
+    <<< 적응형 웹사이트 (비율에 따라 크기가 조정)
+*/
