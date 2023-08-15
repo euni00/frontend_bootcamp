@@ -1,0 +1,43 @@
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  background: #e0c0c0;
+}
+
+a:active {
+  color: red;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: 0.5em;
+  outline: none;
+  border: gray solid 0.5px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: purple;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 780px) {
+  .login-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
