@@ -1,0 +1,27 @@
+body {
+  background: grey;
+}
+.container {
+  max-width: 400px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+.memos li {
+  background: rgb(115, 83, 234);
+}
+.delete {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.filtered {
+  display: none !important;
+}

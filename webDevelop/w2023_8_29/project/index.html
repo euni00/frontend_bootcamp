@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>심플메모</title>
+    <!-- <script src="./script.js"></script> -->
+  </head>
+  <body>
+    <div class="container">
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4">심플메모</h1>
+        <form class="search">
+          <input
+            class="form-control m-auto"
+            type="text"
+            name="search"
+            placeholder="메모를 검색해보세요"
+          />
+        </form>
+      </header>
+
+      <ul class="list-group memos text-light mx-auto">
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>조찬 식사 모임</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>점심 식사 모임</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>저녁 식사후 테니스 모임</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+      </ul>
+      <form class="add text-center my-4">
+        <label class="text-light">메모 저장하기</label>
+        <input class="form-control m-auto" type="text" />
+        <span class="text-danger hidden" id="alertmsg" style="font-size: 10px"
+          >메모 내용을 적어주세요</span
+        >
+      </form>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
