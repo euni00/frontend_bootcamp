@@ -1,0 +1,26 @@
+REST API 서버와 통신 하는 것을
+
+
+디도스 공격 => 무한접속 좀비 컴퓨터를 활용
+
+REST API => endpoint
+
+apple.com/{countrycode}/
+
+GET apple.com/{countrycode}/
+
+    apple.com/{countrycode}/{location}
+
+kR, JP, CN
+
+
+GET
+https://trends.google.com/trends/explore
+
+?q=%EC%9C%A1%EA%B0%81%ED%98%95%20%EA%B0%9C%EB%B0%9C%EC%9E%90&date=now%201-d&geo=KR
+
+
+
+http://dataservice.accuweather.com/currentconditions/v1/{locationkey}
+
+apple.com/
